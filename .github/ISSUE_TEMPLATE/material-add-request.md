@@ -9,5 +9,6 @@ assignees: ''
 
 ## Material Name
 
-## Screenshot of Material or Albedo Map
+## Screenshot of material or diffuse/albedo map
+
 ![Example](url-of-image)

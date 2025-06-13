@@ -9,4 +9,4 @@ assignees: ''
 
 ## Material Name
 
-## Change(s) Requested, and Reasons for Change(s) if Applicable
+## Change(s) requested, and reasons for change(s) if applicable
