@@ -1,0 +1,6 @@
+{
+  "name": "Source Engine PBR",
+  "description": "PBR texture maps for Source Engine assets",
+  "tags": ["graphics"],
+  "mountPath": "/"
+}
