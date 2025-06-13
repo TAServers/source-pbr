@@ -1,19 +1,31 @@
-# GModDXR PBR Textures  
-PBR textures for [GModDXR](https://github.com/Derpius/gmod-dxr) and any other project that may need them.  
+# Source Engine PBR Textures
 
-All MRAO textures are in the format R - Ambient Occlusion (currently unused), G - Roughness, B - Metalness.  
-For ease of loading these are the name of the diffuse texture with `_mrao` appended.  
+PBR textures for Source Engine game assets which don't already have them.
 
-Emission maps store the colour of the emission at a point, with black being no emission.  
-These have the name of the diffuse plus the suffix `_emission`.  
+## Colour channels
 
-Normal maps are currently not planned, but I may work on them after a large batch of MRAOs are done.  
+All MRAO textures are in the glTF format:
 
-Additionally, transmission maps will have the suffix `_transmission`.  
+- R - Ambient Occlusion
+- G - Roughness
+- B - Metalness
 
-## Showcase  
-**With MRAO Textures**  
-![With MRAO](https://github.com/Derpius/gmod-pbr/blob/master/Screenshots/example%20with.png?raw=true)  
+Emission maps store the colour of the emission at a point, with black being no emission.
 
-**Without MRAO Textures**  
-![Without MRAO](https://github.com/Derpius/gmod-pbr/blob/master/Screenshots/example%20without.png?raw=true)  
+## Usage
+
+To make it easy to match these images up with the corresponding Source Engine asset, the following conventions are used:
+- All textures are placed in the same folder as the corresponding diffuse/albedo texture
+- All textures are prefixed with the diffuse/albedo texture name
+- MRAO textures are suffixed with `_mrao`
+- Emission textures are suffixed with `_emission`
+
+## Showcase
+
+**With MRAO Textures**
+
+![With MRAO](https://github.com/TAServers/source-pbr/blob/master/Screenshots/example%20with.png?raw=true)  
+
+**Without MRAO Textures**
+
+![Without MRAO](https://github.com/TAServers/source-pbr/blob/master/Screenshots/example%20without.png?raw=true)  
